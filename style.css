@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(30,50,120);
+}
+main {
+    background-color: white;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    margin: auto;
+    padding: 20px
+}
+div {
+    text-align: center;
+}
