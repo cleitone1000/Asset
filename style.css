@@ -3,6 +3,13 @@
 body {
     background-color: rgb(30,50,120);
 }
+
+nav {
+    display: flexbox;
+    
+    width: 100%;
+    margin: auto;
+}
 main {
     background-color: white;
     width: 75%;
