@@ -2,17 +2,31 @@
 
 body {
     background-color: rgb(30,50,120);
+    max-width: 1200px;
+    min-width: 700px;
+}
+
+div.container {
+    position: relative;
 }
 
 nav {
-    display: flexbox;
+    position:absolute;
+    display: contents;
+    background-color: black;
     
     width: 100%;
     margin: auto;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
 }
 main {
     background-color: white;
     width: 75%;
+    min-width: 700px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
     margin: auto;
