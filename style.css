@@ -2,36 +2,28 @@
 
 body {
     background-color: rgb(30,50,120);
-    max-width: 1200px;
-    min-width: 700px;
-}
-
-div.container {
-    position: relative;
-}
-
-nav {
-    position:absolute;
-    display: contents;
-    background-color: black;
     
-    width: 100%;
-    margin: auto;
-    text-align: center;
 }
 
-nav > a {
-    text-decoration: none;
-}
 main {
     background-color: white;
-    width: 75%;
-    min-width: 700px;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 75%;
     margin: auto;
-    padding: 20px
+    min-width: 600px;
+    max-width: 1000px;
 }
-div {
-    text-align: center;
+
+body > main > nav.container {
+    display: flex;
+    justify-content: center;
+    
+   flex-direction:row;
+   
+}
+
+body >main >nav.container > a >img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
 }
