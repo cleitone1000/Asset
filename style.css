@@ -5,6 +5,11 @@ body {
     
 }
 
+header > img#logo {
+    margin: auto;
+    display: flex;
+}
+
 main {
     background-color: white;
     border-radius: 10px;
