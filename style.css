@@ -1,15 +1,18 @@
+/* Define o charset do documento como UTF-8 */
 @charset "UTF-8";
 
+/* Estilos para o corpo da página */
 body {
-    background-color: rgb(30,50,120);
-    
+    background-color: rgb(30, 50, 120);
 }
 
+/* Estilos para o logotipo no cabeçalho */
 header > img#logo {
     margin: auto;
     display: flex;
 }
 
+/* Estilos para a seção principal */
 main {
     background-color: white;
     border-radius: 10px;
@@ -20,15 +23,15 @@ main {
     max-width: 1000px;
 }
 
+/* Estilos para a navegação no corpo da página */
 body > main > nav.container {
     display: flex;
     justify-content: center;
-    
-   flex-direction:row;
-   
+    flex-direction: row;
 }
 
-body >main >nav.container > a >img {
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+/* Estilos para as imagens dentro das âncoras da navegação */
+body > main > nav.container > a > img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
 }
