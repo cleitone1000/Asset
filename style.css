@@ -1,37 +1,63 @@
 /* Define o charset do documento como UTF-8 */
 @charset "UTF-8";
 
-/* Estilos para o corpo da página */
+/* Estilos gerais */
 body {
     background-color: rgb(30, 50, 120);
+    color: #fff; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
 }
 
-/* Estilos para o logotipo no cabeçalho */
-header > img#logo {
-    margin: auto;
-    display: flex;
+/* Estilos do cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px 0; /* Espaçamento interno */
 }
 
-/* Estilos para a seção principal */
+header #logo {
+    max-width: 200px; /* Limita a largura do logotipo */
+}
+
+/* Estilos do conteúdo principal */
 main {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
-    width: 75%;
-    margin: auto;
-    min-width: 600px;
-    max-width: 1000px;
+    margin: 20px; /* Margens externas */
 }
 
-/* Estilos para a navegação no corpo da página */
-body > main > nav.container {
+.container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-wrap: wrap; /* Quebra de linha */
 }
 
-/* Estilos para as imagens dentro das âncoras da navegação */
-body > main > nav.container > a > img {
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+.container a {
+    margin: 10px; /* Espaçamento entre os ícones */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo */
+    padding: 30px 0; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around; /* Distribuição dos itens */
+}
+
+footer .address,
+footer .contact,
+footer .map,
+footer .whatsapp {
+    width: 25%; /* Largura dos itens */
+}
+
+/* Estilos dos links */
+a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado no hover */
 }
