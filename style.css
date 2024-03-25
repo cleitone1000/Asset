@@ -40,15 +40,15 @@ footer {
     color: #fff; /* Cor do texto */
 }
 
-footer .container {
+footer.container {
     display: flex;
     justify-content: space-around; /* Distribuição dos itens */
 }
 
-footer .address,
-footer .contact,
-footer .map,
-footer .whatsapp {
+footer.address,
+footer.contact,
+footer.map,
+footer.whatsapp {
     width: 25%; /* Largura dos itens */
 }
 
@@ -60,4 +60,8 @@ a {
 
 a:hover {
     text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+section.content > iframe {
+    width: 100vw;
+    height: 85vh;
 }
